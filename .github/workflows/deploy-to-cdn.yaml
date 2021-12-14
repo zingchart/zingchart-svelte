@@ -31,12 +31,12 @@ jobs:
       - name: Build library
         run: npm run build
       - name: Log build output
-        run: ls -alt dist/
+        run: ls -alt lib/
       - name: Archive Artifact (Build)
         uses: actions/upload-artifact@v1
         with:
           name: build
-          path: dist/
+          path: lib/
 
   push-to-cdn:
     name: Push to CDN

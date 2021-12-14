@@ -36,4 +36,4 @@ jobs:
         run: npm run build
       - name: Log build output
         run: |
-          ls -alt dist/
+          ls -alt lib/

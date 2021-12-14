@@ -23,5 +23,11 @@ export default {
 	plugins: [
 		svelte(),
 		resolve()
-	]
+	],
+	onwarn: function(warning, warn) {
+		// Suppress warnings about ZingChart's use of eval
+		if(warning.code === 'EVAL' && /node_modules.zingchart/.test(warning.id)) return;
+
+		warn(warning);
+	}
 };
