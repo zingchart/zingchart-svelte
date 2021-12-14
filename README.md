@@ -82,7 +82,7 @@ Here's an example of using the `ZingChart` component in one of your Svelte compo
   }
 <script>
 
-<ZingChart data={config}/ >
+<ZingChart data={config} />
 ```
 
 ## Properties
