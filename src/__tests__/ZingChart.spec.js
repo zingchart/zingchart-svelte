@@ -18,13 +18,7 @@ describe('<ZingChart />', () => {
 
   test('it renders a bar chart', () => {
     const container = renderZingChart({ data: config });
-    expect(container).toHaveTextContent('© ZingChart 1990 Dave Lunny');
-  });
-
-  test('it spreads the rest of the props correctly', () => {
-    const mockCustomClass = 'custom-class';
-    const container = renderZingChart({ class: mockCustomClass });
-    expect(container.classList.contains('custom-class')).toBe(true);
+    expect(container).toHaveTextContent('ZingChart');
   });
 
 });

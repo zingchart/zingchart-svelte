@@ -6,6 +6,15 @@ module.exports = {
     "^.+\\.js$": "babel-jest",
     "^.+\\.svelte$": "svelte-jester"
   },
+  /* This is not working, does not fix problem when try to run tests.
+   * Corresponding change attempted in package.json:
+
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest src",
+   *
+  transformIgnorePatterns: [
+    "<rootDir>/node_modules/(?!(zingchart|zingchart-constants)/)"
+  ],
+   */
   moduleFileExtensions: [
     'js',
     'svelte'
