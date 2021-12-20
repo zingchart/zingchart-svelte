@@ -5,7 +5,7 @@
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
-[![](https://github.com/zingchart/zingchart-svelte/blob/9b9b36bcfe476c16e7bd7582cfc854147b27398f/zingchart-demo.gif?raw=true)](https://codesandbox.io/s/zingchart-svelte-wrapper-example-dxfc9)
+[![](https://github.com/zingchart/zingchart-svelte/blob/main/zingchart-demo.gif?raw=true)](https://codesandbox.io/s/zingchart-svelte-wrapper-example-dxfc9)
 
 ## Quickstart Guide
 
