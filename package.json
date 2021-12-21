@@ -1,12 +1,8 @@
 {
-  "name": "zingchart-svelte",
+  "name": "@zingsoft/zingchart-svelte",
   "description": "A Svelte component to incorporate ZingChart into a Svelte application",
   "version": "1.0.0",
-  "author": {
-    "name": "Phil Mercurio",
-    "email": "pmercurio@zingsoft.com",
-    "url": "https://zingsoft.com"
-  },
+  "author": "Phil Mercurio <pmercurio@zingsoft.com> (https://zingsoft.com)",
   "svelte": "src/index.js",
   "module": "lib/index.mjs",
   "main": "lib/index.js",
@@ -64,5 +60,8 @@
   "dependencies": {
     "zingchart": "latest",
     "zingchart-constants": "github:zingchart/zingchart-constants#master"
+  },
+  "bugs": {
+    "url": "https://github.com/zingchart/zingchart-svelte/issues"
   }
 }
