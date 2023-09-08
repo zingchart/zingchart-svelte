@@ -16,20 +16,20 @@ This guide assumes some basic working knowledge of Svelte.
 
 ## 1. Install
 
-Install the `zingchart-svelte` package as a dev dependency via `npm`:
+Install the `@zingsoft/zingchart-svelte` package as a dev dependency via `npm`:
 
-`npm install -D zingchart-svelte`
+`npm install -D @zingsoft/zingchart-svelte`
 
 or via `yarn`:
 
-`yarn add -D zingchart-svelte`
+`yarn add -D @zingsoft/zingchart-svelte`
 
 ## 2. Include the component in your project 
 
 You should include the `zingchart-svelte` component to your project via modules:
 
 ```js
-import ZingChart from 'zingchart-svelte';
+import ZingChart from '@zingsoft/zingchart-svelte';
 ```
 
 ### `zingchart` Global Object
@@ -72,7 +72,7 @@ Here's an example of using the `ZingChart` component in one of your Svelte compo
 
 ```svelte
 <script>
-  import ZingChart from 'zingchart-svelte';
+  import ZingChart from '@zingsoft/zingchart-svelte';
 
   const config = {
     type: 'bar',
@@ -153,7 +153,7 @@ All zingchart events are readily available on the component to listen to. For ex
 
 ```svelte
 <script>
-  import ZingChart from 'zingchart-svelte';
+  import ZingChart from '@zingsoft/zingchart-svelte';
 
   const config = {
     type: 'line',
@@ -183,7 +183,7 @@ new plot data to an existing chart:
 
 ```svelte
 <script>
-  import ZingChart from 'zingchart-svelte';
+  import ZingChart from '@zingsoft/zingchart-svelte';
 
   let chart     // chart reference
 
